@@ -30,7 +30,7 @@ const Livechat = () => {
 onSubmit={(e)=>{e.preventDefault()
  dispatch(
   addMessage({
-    name:"rohan",
+    name:"rohan gupta",
     message: livemsg,
   })
   
