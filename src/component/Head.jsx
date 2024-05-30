@@ -33,6 +33,7 @@ const Head = () => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
     console.log("dark");
+    console.log("light");
   };
 
 return (<div className={'grid grid-flow-col shadow-lg p-2 m-2 '+(darkMode && "bg-slate-900")} > 
